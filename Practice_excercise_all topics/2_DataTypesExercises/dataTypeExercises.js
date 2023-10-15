@@ -66,13 +66,13 @@
 
     // Undefined and Null Data Types:
 
-   // 10. Create a variable myUndefined and set it to undefined.
+    // 10. Create a variable myUndefined and set it to undefined.
 
-   let myUndefined = undefined;
+    let myUndefined = undefined;
 
-   // 11. Declare a variable myNull and set it to null.
+    // 11. Declare a variable myNull and set it to null.
     
-   let myNull = null;
+    let myNull = null;
 
 
 
@@ -83,9 +83,9 @@
 
    // Symbol Data Type (ES6 and above):
 
-  // 12. Define a variable mySymbol and set it to a symbol using the Symbol() constructor.
+   // 12. Define a variable mySymbol and set it to a symbol using the Symbol() constructor.
    
-  let mySymbol = Symbol('mysymbolDescription');
+   let mySymbol = Symbol('mysymbolDescription');
 
 
 
@@ -96,7 +96,7 @@
 
   //BigInt Data Type (ES11 and above):
 
- // 13. Declare a variable bigIntValue and set it to a BigInt value.
+  // 13. Declare a variable bigIntValue and set it to a BigInt value.
 
   let bigIntValue =1234567890123456789012345678901234567890;
 
@@ -109,14 +109,33 @@
 
   // Array Data Type:
 
- //14. Create an array called myArray and populate it with a few elements of different data types.
+ //1. Create an array called myArray and populate it with a few elements of different data types.
     
-   let myArray = [2,"a",null];
+ let myArray = [2,"a",null];
 
- // 15.Define another array myEmptyArray without any elements.
+ // 2.Define another array myEmptyArray without any elements.
 
-  let myEmptyArray = [];
+ let myEmptyArray = [];
 
+ //3.Create an array called fruits and fill it with the names of various fruits.
+   
+ let fruits = [`apple`, `banana` , `orange` , `mango`];
+
+ // 4.Declare an array colors and populate it with the names of different colors.
+
+ let colors = [`yellow` , `green` , `pink` , `blue` , `black` ];
+
+ // 5.Define an array daysOfWeek and add the names of the days of the week in order.
+
+ let day_of_week = [`sunday` , `monday` , `tuesday` , `wednesday` , `thusday` , `friday` , `saturday`];
+
+ // 6. Create an array called numbers and fill it with a series of numerical values.
+
+ let number = [1,2,3,4,5,6,7,8];
+
+ // 7. Declare an array cities and populate it with the names of different cities.
+
+ let cities = [`ujjain` , `dewas` , `indore` , `shajapur` , `bhopal`];
 
 
 // _____________________________________________________________________________________________________________________________
